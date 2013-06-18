@@ -1,0 +1,20 @@
+{
+  "name": "twitterfirehose",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "http://twitterfirehose.nodester.com",
+  "node": "0.8.1",
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*",
+    "ntwitter": "*"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "subdomain": "twitterfirehose",
+  "scripts": {
+    "start": "dashboard.js"
+  }
+}
